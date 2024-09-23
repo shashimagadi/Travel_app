@@ -1,0 +1,47 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50vw;
+  background-color: rgb(182, 198, 161);
+  /* background-image: url("https://www.freevector.com/uploads/vector/preview/12939/FreeVector-Travel-Background.jpg"); */
+}
+.title {
+  font-size: 30px;
+}
+
+/* .left-side{
+    flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  
+} */
+
+.card {
+  width: 340px;
+  height: 420px;
+  background-color: rgb(200, 231, 88);
+}
+
+.sign-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between form fields */
+}
+
+.sign-details div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.sign-details div input {
+  border-radius: 10px;
+  height: 50px;
+}
+
+.bttn {
+  margin-top: 2.5rem;
+}
